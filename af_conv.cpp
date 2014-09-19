@@ -1,11 +1,11 @@
-#include "af_conv.cpp"
+#include "af_conv.h"
 #include <stdio.h>
 #include <arrayfire.h>
 #include <af/utils.h>
 
 using namespace af;
 
-void func()
+int main()
 {
     try {
         int device = 0; // free version only support 0
@@ -13,12 +13,14 @@ void func()
         af::info();
 
 
-        float a[] = { 1, 1, 1, 1, 1, 1, 1, 1, 1 };
-        float b[] = { 1, 1};
+        float a[] = { 1, 1, 1, 1, 1, 1, 1, 1 };
+        float b[] = { 2, 1,2,1};
 
-        array A(3,3, a, afHost);
-        array B(1,2, b, afHost);
-
+        array A(2,2,2, a, afHost);
+        array B(2,2, b, afHost);
+	gfor(array i, 10000){
+		convolve(A,B);
+	}
         array C = convolve(A,B);
         print(A);
         print(B);
@@ -28,5 +30,5 @@ void func()
         fprintf(stderr, "%s\n", e.what());
         throw;
     }
-
+	return 0;
 }
