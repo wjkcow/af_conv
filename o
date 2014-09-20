@@ -1,0 +1,104 @@
+af_conv.cpp: In function ‘int af_conv(float*, float*, int, int, int, int, int, int, int, float*)’:
+af_conv.cpp:22: error: no match for call to ‘(af::array) (af::seq&, af::seq&, int&, af::array)’
+/usr/local/arrayfire/include/af/array.h:1430: note: candidates are: af::array af::array::operator()(int) const
+/usr/local/arrayfire/include/af/array.h:1450: note:                 af::array af::array::operator()(const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1471: note:                 af::array af::array::operator()(af::array) const
+/usr/local/arrayfire/include/af/array.h:1493: note:                 af::array af::array::operator()(const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1513: note:                 af::array af::array::operator()(int, int) const
+/usr/local/arrayfire/include/af/array.h:1534: note:                 af::array af::array::operator()(int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1547: note:                 af::array af::array::operator()(int, af::array) const
+/usr/local/arrayfire/include/af/array.h:1568: note:                 af::array af::array::operator()(const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1581: note:                 af::array af::array::operator()(const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1591: note:                 af::array af::array::operator()(af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1601: note:                 af::array af::array::operator()(af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1611: note:                 af::array af::array::operator()(af::array, af::array) const
+/usr/local/arrayfire/include/af/array.h:1622: note:                 af::array af::array::operator()(int, int, int) const
+/usr/local/arrayfire/include/af/array.h:1633: note:                 af::array af::array::operator()(const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1644: note:                 af::array af::array::operator()(int, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1655: note:                 af::array af::array::operator()(int, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1667: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1679: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1691: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1703: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1714: note:                 af::array af::array::operator()(af::array, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1726: note:                 af::array af::array::operator()(af::array, af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1738: note:                 af::array af::array::operator()(af::array, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1750: note:                 af::array af::array::operator()(af::array, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1762: note:                 af::array af::array::operator()(const af::seq&, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1773: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1785: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1797: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1809: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1821: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1833: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1845: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1857: note:                 af::array af::array::operator()(int, int, int, int) const
+af_conv.cpp:22: error: no match for call to ‘(af::array) (af::seq&, af::seq&, int&, af::array)’
+/usr/local/arrayfire/include/af/array.h:1430: note: candidates are: af::array af::array::operator()(int) const
+/usr/local/arrayfire/include/af/array.h:1450: note:                 af::array af::array::operator()(const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1471: note:                 af::array af::array::operator()(af::array) const
+/usr/local/arrayfire/include/af/array.h:1493: note:                 af::array af::array::operator()(const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1513: note:                 af::array af::array::operator()(int, int) const
+/usr/local/arrayfire/include/af/array.h:1534: note:                 af::array af::array::operator()(int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1547: note:                 af::array af::array::operator()(int, af::array) const
+/usr/local/arrayfire/include/af/array.h:1568: note:                 af::array af::array::operator()(const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1581: note:                 af::array af::array::operator()(const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1591: note:                 af::array af::array::operator()(af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1601: note:                 af::array af::array::operator()(af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1611: note:                 af::array af::array::operator()(af::array, af::array) const
+/usr/local/arrayfire/include/af/array.h:1622: note:                 af::array af::array::operator()(int, int, int) const
+/usr/local/arrayfire/include/af/array.h:1633: note:                 af::array af::array::operator()(const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1644: note:                 af::array af::array::operator()(int, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1655: note:                 af::array af::array::operator()(int, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1667: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1679: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1691: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1703: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1714: note:                 af::array af::array::operator()(af::array, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1726: note:                 af::array af::array::operator()(af::array, af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1738: note:                 af::array af::array::operator()(af::array, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1750: note:                 af::array af::array::operator()(af::array, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1762: note:                 af::array af::array::operator()(const af::seq&, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1773: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1785: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1797: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1809: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1821: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1833: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1845: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1857: note:                 af::array af::array::operator()(int, int, int, int) const
+af_conv.cpp:23: error: no match for call to ‘(af::array) (af::seq&, af::seq&, af::array, af::array)’
+/usr/local/arrayfire/include/af/array.h:1430: note: candidates are: af::array af::array::operator()(int) const
+/usr/local/arrayfire/include/af/array.h:1450: note:                 af::array af::array::operator()(const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1471: note:                 af::array af::array::operator()(af::array) const
+/usr/local/arrayfire/include/af/array.h:1493: note:                 af::array af::array::operator()(const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1513: note:                 af::array af::array::operator()(int, int) const
+/usr/local/arrayfire/include/af/array.h:1534: note:                 af::array af::array::operator()(int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1547: note:                 af::array af::array::operator()(int, af::array) const
+/usr/local/arrayfire/include/af/array.h:1568: note:                 af::array af::array::operator()(const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1581: note:                 af::array af::array::operator()(const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1591: note:                 af::array af::array::operator()(af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1601: note:                 af::array af::array::operator()(af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1611: note:                 af::array af::array::operator()(af::array, af::array) const
+/usr/local/arrayfire/include/af/array.h:1622: note:                 af::array af::array::operator()(int, int, int) const
+/usr/local/arrayfire/include/af/array.h:1633: note:                 af::array af::array::operator()(const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1644: note:                 af::array af::array::operator()(int, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1655: note:                 af::array af::array::operator()(int, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1667: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1679: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1691: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1703: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1714: note:                 af::array af::array::operator()(af::array, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1726: note:                 af::array af::array::operator()(af::array, af::array, int) const
+/usr/local/arrayfire/include/af/array.h:1738: note:                 af::array af::array::operator()(af::array, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1750: note:                 af::array af::array::operator()(af::array, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1762: note:                 af::array af::array::operator()(const af::seq&, af::array, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1773: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, af::array) const
+/usr/local/arrayfire/include/af/array.h:1785: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1797: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, const af::seq&, int) const
+/usr/local/arrayfire/include/af/array.h:1809: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, int) const
+/usr/local/arrayfire/include/af/array.h:1821: note:                 af::array af::array::operator()(int, const af::seq&, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1833: note:                 af::array af::array::operator()(const af::seq&, int, const af::seq&, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1845: note:                 af::array af::array::operator()(const af::seq&, const af::seq&, int, const af::seq&) const
+/usr/local/arrayfire/include/af/array.h:1857: note:                 af::array af::array::operator()(int, int, int, int) const
+make: *** [af_conv] Error 1
